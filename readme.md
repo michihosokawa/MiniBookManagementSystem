@@ -53,7 +53,7 @@ CTRL+Cが入力されるまで、Flaskが動作し続けます
 3. 例えば、タイトルに「Python」と入力して「検索」ボタンをクリックすると、結果が表示されます
 ![result](https://user-images.githubusercontent.com/37906793/48471113-7db9b280-e836-11e8-8920-9aba5d1b0d89.png)
 
-4. 立ちとるをクリックすると詳細が表示されます
+4. タイトルをクリックすると詳細が表示されます
 ![book](https://user-images.githubusercontent.com/37906793/48471803-1d2b7500-e838-11e8-8416-935d5dc07c4e.png)
 
 
