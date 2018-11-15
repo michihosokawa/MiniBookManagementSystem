@@ -5,11 +5,14 @@ Flask＋Elasticsearchで動作しています。
 内部では、Google Books API を呼び出しています。
 
 ## Requirement
+- Java 1.8
+    - ElasticsearchがJava上で動作している
+    - JREではなくJDKにしないと動作しない
 - Elasticsearch6.3
-    - 事前にインストールし、http://localhost:9200 でアクセスできることを確認しておいてください
     - 次の2つのプラグインをインストールしておいてください
         - ICU Analysis
         - Japanese (Kuromoji) Analysis
+    - http://localhost:9200 でアクセスできることを確認しておいてください
 - pip install elasticsearch
 - pip install Flask
 
