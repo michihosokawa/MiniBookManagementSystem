@@ -1,7 +1,8 @@
 # Mini Book Management System
 
 簡易的な書籍管理システムです。  
-Flask＋Elasticsearchで動作しています
+Flask＋Elasticsearchで動作しています。  
+内部では、Google Books API を呼び出しています。
 
 ## Requirement
 - Elasticsearch6.3
@@ -9,6 +10,8 @@ Flask＋Elasticsearchで動作しています
     - 次の2つのプラグインをインストールしておいてください
         - ICU Analysis
         - Japanese (Kuromoji) Analysis
+- pip install elasticsearch
+- pip install Flask
 
 ## Usage
 
