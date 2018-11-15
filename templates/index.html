@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/main.css">
 
-    <title>案件検索System</title>
+    <title>簡易書籍管理システム</title>
 </head>
 
 <body>
@@ -100,56 +100,6 @@
                             <textarea class="form-control" v-model="description" cols="13" id="description" name="description" rows="1"></textarea>
                         </div>
                     </div>
-
-                    <!--
-                    <div class="form-row">
-                        <div class="col col-md-2">
-                            <label class="col-form-label" for="lang">言語</label>
-                        </div>
-
-                        <div class="col col-md-10">
-                            <input type="checkbox" name="lang" v-model="lang" id="lang_python" value="Python">
-                            <label class="form-check-label" for="lang_python">Python</label>
-
-                            <input type="checkbox" name="lang" v-model="lang" id="lang_java" value="Java">
-                            <label class="form-check-label" for="lang_java">Java</label>
-
-                            <input type="checkbox" name="lang" v-model="lang" id="lang_ruby" value="Ruby">
-                            <label class="form-check-label" for="lang_ruby">Ruby</label>
-
-                            <input type="checkbox" name="lang" v-model="lang" id="lang_php" value="PHP">
-                            <label class="form-check-label" for="lang_php">PHP</label>
-
-                            <input type="checkbox" name="lang" v-model="lang" id="lang_cpp" value="C++">
-                            <label class="form-check-label" for="lang_cpp">C++</label>
-
-                            <input type="checkbox" name="lang" v-model="lang" id="lang_csharp" value="C#">
-                            <label class="form-check-label" for="lang_csharp">C#</label>
-
-                            <input type="checkbox" name="lang" v-model="lang" id="lang_javascript" value="JavaScript">
-                            <label class="form-check-label" for="lang_javascript">JavaScript</label>
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col col-md-2">
-                            <label class="control-label" for="sites">最寄り駅</label>
-                        </div>
-
-                        <div class="col col-md-10">
-                            <select class="form-control" name="sites" id="sites" v-model="sites" multiple>
-                                <option value="渋谷">渋谷</option>
-                                <option value="田町">田町</option>
-                                <option value="浜松町">浜松町</option>
-                                <option value="東京">東京</option>
-                                <option value="品川">品川</option>
-                                <option value="京橋">京橋</option>
-                                <option value="大崎">大崎</option>
-                            </select>
-                        </div>
-                    </div>
-                    -->
-
                     <div class="form-row">
                         <div class="col col-md-5">
                             <button id="search-button" v-on:click="search" class="btn btn-primary">検索</button>
