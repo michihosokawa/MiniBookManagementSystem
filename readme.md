@@ -5,8 +5,9 @@ Flask＋Elasticsearchで動作しています。
 内部では、Google Books API を呼び出しています。
 
 ## Requirement
+
 - Java 1.8
-    - ElasticsearchがJava上で動作している
+    - Elasticsearchを動作させるのに必要
     - JREではなくJDKにしないと動作しない
 - Elasticsearch6.3
     - 次の2つのプラグインをインストールしておいてください
@@ -19,13 +20,16 @@ Flask＋Elasticsearchで動作しています。
 ## Usage
 
 ### Elasticseachの初期化
+
 - ElasticsearchのINDEXを定義します。（RDBでのTable作成に相当）
     - python initialize.py
     - 「setting.json」「mapping.json」を参照しています
-    - すでに、INDEXが作成されていた場合には、該当するINDEXは削除されます
+    - すでに、当該INDEXが作成されていた場合には、そのINDEXは削除されます
 
 ### Flask＋アプリの実行
+
 #### Flask起動  
+
 - python app.py
 
 次のような画面が出れば、成功です
@@ -40,6 +44,7 @@ Flask＋Elasticsearchで動作しています。
 CTRL+Cが入力されるまで、Flaskが動作し続けます
 
 #### アプリへのアクセス
+
 - ブラウザで次のURLにアクセスしてください
     - http://localhost:8080
 
@@ -48,6 +53,7 @@ CTRL+Cが入力されるまで、Flaskが動作し続けます
 
 
 ### アプリを使う
+
 1. isbnを入力して「登録」ボタンを押します
 ![regist](https://user-images.githubusercontent.com/37906793/48471080-6ed30000-e836-11e8-8f78-f446eec11e52.png)
     - この時、isbnには「-」を入れないでください
@@ -64,4 +70,5 @@ CTRL+Cが入力されるまで、Flaskが動作し続けます
 
 
 ## Authors
+
 - [michihosokawa](https://github.com/michihosokawa)
